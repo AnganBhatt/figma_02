@@ -1,73 +1,133 @@
-@media (max-width: 768px) {
-   nav {
-      padding: 0 16px;
-   }
+.container {
+        padding: 0 16px;
+    }
 
-   nav .container {
-      height: 56px;
-   }
+    /* Navbar */
 
-   nav .row {
-      justify-content: center;
-      align-items: center;
-      height: 56px;
-      position: relative;
-   }
+    .list-box,
+    .button {
+        display: none;
+    }
 
-    .image {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-   }
+    .mobile-menu {
+        display: block;
+    }
 
-   .list-box {
-      display: none;
-   }
+    nav .container {
+        height: 70px;
+    }
 
-   nav .button {
-      display: none;
-   }
+    /* Hero */
 
-   .mobile-menu {
-      display: block;
-      right: 0;
-      position: absolute;
-      font-size: 24px;
-      line-height: 56px;
-      margin-left: auto;
-   }
+    .hero {
+        padding: 50px 0;
+    }
 
-   /* hero section */
-   .hero {
-      padding: 30px;
-   }
+    .hero .row {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
 
-   .hero .row {
-      flex-direction: column;
-      gap: 0;
-   }
+    .about {
+        max-width: 100%;
+    }
 
-   .about {
-      width: 100%;
-      text-align: left;
-      padding-bottom: 24px;
-   }
+    .about h2 {
+        font-size: 36px;
+    }
 
-   .about h2 {
-      font-size: 30px;
-   }
-   .about p{
-      font-size: 14px;
-      line-height: 160%;
-   }
-   .about .reg{
-      margin-top: 20px;
-      font-size: 14px;
-      padding: 10px 24px;
-   }
-   .hero .service-img img{
-      max-width: 100%;
-      display: block;
-      padding-bottom: 24px;
-   }
-}
+    .service-img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* Client */
+
+    .client-logo {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    /* Service */
+
+    .membership-part {
+        flex-direction: column;
+    }
+
+    .about-membership {
+        width: 100%;
+    }
+
+    /* Feature Sections */
+
+    .one,
+    .three .row,
+    .four .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feat-img,
+    .img-pana,
+    .tesla {
+        width: 100%;
+        max-width: 320px;
+        margin: auto;
+    }
+
+    .one-about,
+    .three-about,
+    .four-about {
+        width: 100%;
+    }
+
+    /* Stats */
+
+    .two .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .two-about {
+        max-width: 100%;
+    }
+
+    .two-box {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .box-data {
+        justify-content: center;
+    }
+
+    /* Blog */
+
+    .cards-box {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    /* Footer */
+
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        width: 100%;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .search-box {
+        width: 100%;
+        max-width: 320px;
+    }
+   
+
